@@ -1,0 +1,56 @@
+html {
+    height: 100%;
+}
+
+body {
+    overflow-y: hidden;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    margin: 0;
+    font-family: "Raleway";
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #eadac1;
+}
+
+.icon {
+    width: 24px;
+    margin: 30px;
+    color: #351500;
+}
+
+.logo {
+    font-weight: bolder;
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    transform: rotate(180deg);
+    font-family: "Raleway";
+    font-weight: 800;
+    color: #351500;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #f8ecde;
+}
+
+.contact {
+    font-size: 10px;
+    width: 200px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.homePicture {
+    width: -300px;
+}
