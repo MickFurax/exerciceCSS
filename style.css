@@ -108,19 +108,17 @@ button {
 }
 
 .homePicture {
-    display: block;
+    display: flex;
     width: 100%;
     height: 100%; 
-    float: left;
     overflow: hidden;
     background-color: #f8ecde;
+    justify-content: end;
 
 }
 
 .homePictureIMG {
-    max-width: 100%;
-    max-height: auto;
+    height: 100%;
     object-fit: contain;
     background-size: cover;
-
 }
